@@ -1,4 +1,6 @@
-The Problem
+# The Problem
+-----------------
+
 
 Charlie wants to purchase office-space. He does a detailed survey of the offices and corporate complexes in the area, and tries to quantify a lot of factors, such as the distance of the offices from residential and other commercial areas, schools and workplaces; the reputation of the construction companies and builders involved in constructing the apartments; the distance of the offices from highways, freeways and important roads; the facilities around the office space and so on.
 
@@ -18,17 +20,20 @@ The table is immediately followed by integer T followed by T rows containing F c
 
 Constraints
 
-1 <= F <= 5
-5 <= N <= 100
-1 <= T <= 100
-0 <= Price Per Square Foot <= 10^6 0 <= Factor Values <= 1
+- 1 <= F <= 5
+- 5 <= N <= 100
+- 1 <= T <= 100
+- 0 <= Price Per Square Foot <= 10^6 0 <= Factor Values <= 1
 
-Output Format
+# Output Format
+-------------------
 
 T lines. Each line 'i' contains the predicted price for the 'i'th test case.
 
-Sample Input
+# Sample Input
+--------------
 
+```
 2 100
 0.44 0.68 511.14
 0.99 0.23 717.1
@@ -135,14 +140,23 @@ Sample Input
 0.91 0.91
 0.31 0.76
 0.51 0.31
-Sample Output
 
+```
+
+# Sample Output
+---------
+
+```
 180.38
 1312.07
 440.13
 343.72
-Explanation
 
+```
+
+
+# Explanation
+---------------
 There are two features which have been noted by Charlie. There are 100 data points, for which he has taken note of the features, and the price per square foot (in the last column).
 
 At the end, are four rows where he knows the two features, you output the predicted price/square foot of the office space for every testcase.
